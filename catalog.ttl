@@ -8,8 +8,8 @@
   a dcat:Resource, dcat:Catalog;
   <http://www.w3.org/2000/01/rdf-schema#label> "Test";
   dcterms:title "Test";
-  <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-11-10T12:29:07Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2023-11-10T12:33:52Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-11-10"^^xsd:date;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2023-11-10"^^xsd:date;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
   dcterms:description "Test";
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
@@ -19,8 +19,8 @@
   <http://semanticscience.org/resource/SIO_000628> <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl/metrics/445c0a70d1e214e545b261559e2842f4>,
     <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
   dcterms:isPartOf <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl>;
-  dcterms:issued "2023-11-10T12:29:07Z"^^xsd:dateTime;
-  dcterms:modified "2023-11-10T12:29:07Z"^^xsd:dateTime;
+  dcterms:issued "2023-11-10"^^xsd:date;
+  dcterms:modified "2023-11-10"^^xsd:date;
   dcat:dataset <https://raw.githubusercontent.com/kburger/static-fdp-content/master/dataset.ttl>;
   dcterms:conformsTo <https://health-ri.sandbox.semlab-leiden.nl/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
 
