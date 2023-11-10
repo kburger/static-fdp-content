@@ -19,8 +19,8 @@
   <http://semanticscience.org/resource/SIO_000628> <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl/metrics/445c0a70d1e214e545b261559e2842f4>,
     <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
   dcterms:isPartOf <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl>;
-  dcterms:issued "2023-11-10T12:29:07.889018451Z"^^xsd:dateTime;
-  dcterms:modified "2023-11-10T12:29:07.889018451Z"^^xsd:dateTime;
+  dcterms:issued "2023-11-10T12:29:07Z"^^xsd:dateTime;
+  dcterms:modified "2023-11-10T12:29:07Z"^^xsd:dateTime;
   dcat:dataset <https://raw.githubusercontent.com/kburger/static-fdp-content/master/dataset.ttl>;
   dcterms:conformsTo <https://health-ri.sandbox.semlab-leiden.nl/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
 
