@@ -6,8 +6,8 @@
 
 <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl>
   a dcat:Resource, dcat:Catalog;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Test";
-  dcterms:title "Test";
+  <http://www.w3.org/2000/01/rdf-schema#label> "This is a test Catalog";
+  dcterms:title "This is a test Catalog";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-11-10"^^xsd:date;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2023-11-10"^^xsd:date;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
