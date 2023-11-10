@@ -6,8 +6,8 @@
 
 <https://raw.githubusercontent.com/kburger/static-fdp-content/master/dataset.ttl>
   a dcat:Resource, dcat:Dataset;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Test";
-  dcterms:title "Test";
+  <http://www.w3.org/2000/01/rdf-schema#label> "This is a test Dataset";
+  dcterms:title "This is a test Dataset";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-11-10T12:33:32.981980787Z"^^xsd:dateTime;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2023-11-10T12:33:52.824187178Z"^^xsd:dateTime;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
