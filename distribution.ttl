@@ -6,8 +6,8 @@
 
 <https://raw.githubusercontent.com/kburger/static-fdp-content/master/distribution.ttl>
   a dcat:Resource, dcat:Distribution;
-  <http://www.w3.org/2000/01/rdf-schema#label> "Test";
-  dcterms:title "Test";
+  <http://www.w3.org/2000/01/rdf-schema#label> "This is a test Distribution";
+  dcterms:title "This is a test Distribution";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-11-10T12:33:52.771149352Z"^^xsd:dateTime;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2023-11-10T12:33:52.771149352Z"^^xsd:dateTime;
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
