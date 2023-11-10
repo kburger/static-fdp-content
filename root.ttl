@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl> a dcat:Resource, dcat:DataService, <https://w3id.org/fdp/fdp-o#MetadataService>,
+    <https://w3id.org/fdp/fdp-o#FAIRDataPoint>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "My FAIR Data Point";
+  dcterms:title "My FAIR Data Point";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2023-09-05T11:42:08.909267024Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2023-11-10T12:33:52.97612851Z"^^xsd:dateTime;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  dcterms:description "Duis pellentesque, nunc a fringilla varius, magna dui porta quam, nec ultricies augue turpis sed velit. Donec id consectetur ligula. Suspendisse pharetra egestas massa, vel varius leo viverra at. Donec scelerisque id ipsum id semper. Maecenas facilisis augue vel justo molestie aliquet. Maecenas sed mattis lacus, sed viverra risus. Donec iaculis quis lacus vitae scelerisque. Nullam fermentum lectus nisi, id vulputate nisi congue nec. Morbi fermentum justo at justo bibendum, at tempus ipsum tempor. Donec facilisis nibh sed lectus blandit venenatis. Cras ullamcorper, justo vitae feugiat commodo, orci metus suscipit purus, quis sagittis turpis ante eget ex. Pellentesque malesuada a metus eu pulvinar. Morbi rutrum euismod eros at varius. Duis finibus dapibus ex, a hendrerit mauris efficitur at.";
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#identifier>;
+  <http://www.re3data.org/schema/3-0#repositoryIdentifier> <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#identifier>;
+  dcterms:accessRights <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#accessRights>;
+  dcterms:publisher <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#publisher>;
+  <https://w3id.org/fdp/fdp-o#metadataCatalog> <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl>;
+  <http://semanticscience.org/resource/SIO_000628> <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:version "1.0"^^xsd:float;
+  dcterms:conformsTo <https://health-ri.sandbox.semlab-leiden.nl/profile/77aaad6a-0136-4c6e-88b9-07ffccd0ee4c>;
+  <https://w3id.org/fdp/fdp-o#fdpSoftwareVersion> "FDP:v1.17.1~9604e79";
+  dcat:endpointURL <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl> .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#identifier> a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl" .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#accessRights> a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl#publisher> a foaf:Agent;
+  foaf:name "Default Publisher" .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl/catalog/> a ldp:DirectContainer;
+  dcterms:title "Catalogs";
+  ldp:membershipResource <https://raw.githubusercontent.com/kburger/static-fdp-content/master/root.ttl>;
+  ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#metadataCatalog>;
+  ldp:contains <https://raw.githubusercontent.com/kburger/static-fdp-content/master/catalog.ttl> .
+
+<https://health-ri.sandbox.semlab-leiden.nl/profile/77aaad6a-0136-4c6e-88b9-07ffccd0ee4c>
+  <http://www.w3.org/2000/01/rdf-schema#label> "FAIR Data Point Profile" .
